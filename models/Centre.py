@@ -20,7 +20,7 @@ class Centre:
         else:
             self.booking[vaccine_type].append(user)
 
-        return "successfully booked"
+        return "successully booked"
 
     def get_vaccine_available_count(self, vaccine_type):
         return self.vaccine_inventories.get(vaccine_type)
